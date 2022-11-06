@@ -1,5 +1,5 @@
 html {
-    font-family: Helvetica;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 22px;
     color: seashell;
     background-color: black;
@@ -51,53 +51,57 @@ nav a {
 main {
     position: relative;
     top: 70px;
-    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-image: url('../Pics/Qatar\ D&D.jpg');
+    background-position-y: 120px;
     background-size: cover;
     height: 700px;
-    align-items: center;
+    align-items: start;
     z-index: 2;
-  
-}
+  }
 
 #center-text {
+    color: Gold;
     background-color: black;
-    border: 1px solid black;
     align-items: space-around;
     height: 140px;
-    width: 1200px;
+    width: 100%;
+    z-index: 2;
 }
 
 #mid-section {
+    color: gold;
     position: relative;
     top: 70px;
 
 }
 
 #gallery {
+    
     position: relative;
     top: 70px;
     display: flex;
     flex-wrap: wrap;
-    min-width: 1000px;
+    min-width: 600px;
     justify-content: space-around;
 }
 
 .gallery-image img{
-    
+    border: 2px solid aliceblue;
     width: 300px;
     height: 200px;
 }
 
 #lower-section {
     position: relative;
+    color: black;
     top: 70px;
-    min-width: 1200px;
-    min-height: 500px;
-    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    min-width: 600px;
+    min-height: 1000px;
+    background-image: url('../Pics/skysports-world-cup-qatar-2022_5921764.jpg');
     background-size: cover;
     flex-flow: column;
     margin-top: 20px;
-    justify-content: center;
+    justify-content: start;
 }
 
 #addresses {
@@ -105,11 +109,13 @@ main {
 }
 
 .address-box {
+    color: bisque;
+    border: 1px solid wheat;
     display: flex;
     flex-flow: column;
-    height: 300px;
+    height: 400px;
     width: 300px;
-    background-color: black;
+    background-color: blueviolet;
     align-items: center;
 }
 
