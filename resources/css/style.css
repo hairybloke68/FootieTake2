@@ -1,0 +1,132 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    z-index: 5;
+    background-color: black;
+}
+
+#logo {
+    display: inline-flex;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+    z-index: 5;
+}
+
+#top-menu {
+    display: inline-flex;
+    height: 69px;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+nav a { 
+    margin: auto 10px;
+    padding: auto 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-size: cover;
+    height: 700px;
+    align-items: center;
+    z-index: 2;
+  
+}
+
+#center-text {
+    background-color: black;
+    border: 1px solid black;
+    align-items: space-around;
+    height: 140px;
+    width: 1200px;
+}
+
+#mid-section {
+    position: relative;
+    top: 70px;
+
+}
+
+#gallery {
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 1000px;
+    justify-content: space-around;
+}
+
+.gallery-image img{
+    
+    width: 300px;
+    height: 200px;
+}
+
+#lower-section {
+    position: relative;
+    top: 70px;
+    min-width: 1200px;
+    min-height: 500px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-size: cover;
+    flex-flow: column;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#addresses {
+    flex-flow: row;
+}
+
+.address-box {
+    display: flex;
+    flex-flow: column;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    align-items: center;
+}
+
+#bottom-section {
+    position: relative;
+    top: 70px;
+    flex-flow: column;
+    height: 200px;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+footer {
+    position: relative;
+    top: 70px;
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 20px;
+}
