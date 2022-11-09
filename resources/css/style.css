@@ -38,10 +38,11 @@ header img {
     text-decoration: underline;
 }
 
-nav a { 
+nav a {
     margin: auto 10px;
     padding: auto 10px;
 }
+
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -54,10 +55,10 @@ main {
     background-image: url('../Pics/Qatar\ D&D.jpg');
     background-position-y: 120px;
     background-size: cover;
-    height: 700px;
+    height: 3000px;
     align-items: start;
     z-index: 2;
-  }
+}
 
 #center-text {
     color: Gold;
@@ -68,15 +69,18 @@ main {
     z-index: 2;
 }
 
+#form1 {
+    background-color: black;
+    justify-content: space-around;
+}
+
 #mid-section {
     color: gold;
     position: relative;
     top: 70px;
-
 }
 
 #gallery {
-    
     position: relative;
     top: 70px;
     display: flex;
@@ -85,7 +89,7 @@ main {
     justify-content: space-around;
 }
 
-.gallery-image img{
+.gallery-image img {
     border: 2px solid aliceblue;
     width: 300px;
     height: 200px;
@@ -126,7 +130,6 @@ main {
     height: 200px;
     justify-content: center;
     margin-top: 50px;
-    
 }
 
 footer {

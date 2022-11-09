@@ -8,10 +8,10 @@
     </title>
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
     </style>
 
 </head>
@@ -30,27 +30,107 @@
         </div>
     </header>
     <main class="flex-container">
-        
-        <div id="center-text" >
+
+        <div id="center-text">
             <h1>¡Competion Time!</h1>
             <h4>¿Can You Beat Brian the Psychic Hedehog? - Yes It's Winter and He Has Hibernated - ¡Go On You Know You Want To!</h4>
+            <div id="form1" class="flex-container">
+                <h2>Time to submit your group stage entry</h2><br>
+
+                <form>
+                    <label>First Name</label><input type="text" id="fname" name="fname"><label>surname</label><input type="text" id="sname" name="sname">
+                    <p>Match Day 1</p><br>
+                    <label for="d1g1-1">Qatar</label><input type="number" id="d1g1-1" name="d1g1-1" size="2"><input type="number" id="d1g1-2" name="d1g1-2" size="2"><label for="d1g1-2">Ecuador</label><br>
+                    <p>Match Day 2</p><br>
+                    <label>Senegal</label><input type="number" id="d2g1-1" name="d2g1-1" size="2"><input type="number" id="d2g1-2" name="d2g1-2" size="2"><label>Netherlands</label><br>
+                    <label>England</label><input type="number" id="d2g2-1" name="d2g2-1" size="2"><input type="number" id="d2g2-2" name="d2g2-2" size="2"><label>Iran</label><br>
+                    <label>United States</label><input type="number" id="d2g3-1" name="d2g3-1" size="2"><input type="number" id="d2g3-2" name="d2g3-2" size="2"><label>Wales</label><br>
+                    <p>Match Day 3</p><br>
+                    <label>Argentina</label><input type="number" id="d3g1-1" name="d3g1-1" size="2"><input type="number" id="d3g1-2" name="d3g1-2" size="2"><label>Saudi Arabia</label><br>
+                    <label>Denmark</label><input type="number" id="d3g2-1" name="d3g2-1" size="2"><input type="number" id="d3g2-2" name="d3g2-2" size="2"><label>Tunisia</label><br>
+                    <label>Mexico</label><input type="number" id="d3g3-1" name="d3g3-1" size="2"><input type="number" id="d3g3-2" name="d3g3-2" size="2"><label>Poland</label><br>
+                    <label>France</label><input type="number" id="d3g4-1" name="d3g4-1" size="2"><input type="number" id="d3g4-2" name="d3g4-2" size="2"><label>Australia</label><br>
+                    <p>Match Day 4</p><br>
+                    <label>Morocco</label><input type="number" id="d4g1-1" name="d4g1-1" size="2"><input type="number" id="d4g1-2" name="d4g1-2" size="2"><label>Croatia</label><br>
+                    <label>Germany</label><input type="number" id="d4g2-1" name="d4g2-1" size="2"><input type="number" id="d4g2-2" name="d4g2-2" size="2"><label>Japan</label><br>
+                    <label>Spain</label><input type="number" id="d4g3-1" name="d4g3-1" size="2"><input type="number" id="d4g3-2" name="d4g3-2" size="2"><label>Costa Rica</label><br>
+                    <label>Belgium</label><input type="number" id="d4g4-1" name="d4g4-1" size="2"><input type="number" id="d4g4-2" name="d4g4-2" size="2"><label>Canada</label><br>
+                    <p>Match Day 5</p><br>
+                    <label>Switzerland</label><input type="number" id="d5g1-1" name="d5g1-1" size="2"><input type="number" id="d5g1-2" name="d5g1-2" size="2"><label>Cameroon</label><br>
+                    <label>Uraguay</label><input type="number" id="d5g2-1" name="d5g2-1" size="2"><input type="number" id="d5g2-2" name="d5g2-2" size="2"><label>Korea Rupublic</label><br>
+                    <label>Portugal</label><input type="number" id="d5g3-1" name="d5g3-1" size="2"><input type="number" id="d5g3-2" name="d5g3-2" size="2"><label>Ghana</label><br>
+                    <label>Brazil</label><input type="number" id="d5g4-1" name="d5g4-1" size="2"><input type="number" id="d5g4-2" name="d5g4-2" size="2"><label>Serbia</label><br>
+                    <p>Match Day 6</p><br>
+                    <label>Wales</label><input type="number" id="d6g1-1" name="d6g1-1" size="2"><input type="number" id="d6g1-2" name="d6g1-2" size="2"><label>Iran</label><br>
+                    <label>Qatar</label><input type="number" id="d6g2-1" name="d6g2-1" size="2"><input type="number" id="d6g2-2" name="d6g2-2" size="2"><label>Senegal</label><br>
+                    <label>Netherlands</label><input type="number" id="d6g3-1" name="d6g3-1" size="2"><input type="number" id="d6g3-2" name="d6g3-2" size="2"><label>Ecuador</label><br>
+                    <label>England</label><input type="number" id="d6g4-1" name="d6g4-1" size="2"><input type="number" id="d6g4-2" name="d6g4-2" size="2"><label>United States</label><br>
+                    <p>Match Day 7</p><br>
+                    <label>Tunisia</label><input type="number" id="d7g1-1" name="d7g1-1" size="2"><input type="number" id="d7g1-2" name="d7g1-2" size="2"><label>Australia</label><br>
+                    <label>Poland</label><input type="number" id="d7g2-1" name="d7g2-1" size="2"><input type="number" id="d7g2-2" name="d7g2-2" size="2"><label>Saudi Arabia</label><br>
+                    <label>France</label><input type="number" id="d7g3-1" name="d7g3-1" size="2"><input type="number" id="d7g3-2" name="d7g3-2" size="2"><label>Denmark</label><br>
+                    <label>Argentina</label><input type="number" id="d7g4-1" name="d7g4-1" size="2"><input type="number" id="d7g4-2" name="d7g4-2" size="2"><label>Mexico</label><br>
+                    <p>Match Day 8</p><br>
+                    <label>Japan</label><input type="number" id="d8g1-1" name="d8g1-1" size="2"><input type="number" id="d8g1-2" name="d8g1-2" size="2"><label>Costa Rica</label><br>
+                    <label>Belgium</label><input type="number" id="d8g2-1" name="d8g2-1" size="2"><input type="number" id="d8g2-2" name="d8g2-2" size="2"><label>Morocco</label><br>
+                    <label>Croatia</label><input type="number" id="d8g3-1" name="d8g3-1" size="2"><input type="number" id="d8g3-2" name="d8g3-2" size="2"><label>Canada</label><br>
+                    <label>Spain</label><input type="number" id="d8g4-1" name="d8g4-1" size="2"><input type="number" id="d8g4-2" name="d8g4-2" size="2"><label>Germany</label><br>
+                    <p>Match Day 9</p><br>
+                    <label>Cameroon</label><input type="number" id="d9g1-1" name="d9g1-1" size="2"><input type="number" id="d9g1-2" name="d9g1-2" size="2"><label>Serbia</label><br>
+                    <label>Korea Republic</label><input type="number" id="d9g3-1" name="d9g2-1" size="2"><input type="number" id="d9g2-2" name="d9g2-2" size="2"><label>Ghana</label><br>
+                    <label>Brazil</label><input type="number" id="d9g3-1" name="d9g3-1" size="2"><input type="number" id="d9g3-2" name="d9g3-2" size="2"><label>Switzerland</label><br>
+                    <label>Portugal</label><input type="number" id="d9g4-1" name="d9g4-1" size="2"><input type="number" id="d9g4-2" name="d9g4-2" size="2"><label>Uraguay</label><br>
+                    <p>Match Day 10</p><br>
+                    <label>Australia</label><input type="number" id="d10g1-1" name="d10g1-1" size="2"><input type="number" id="d10g1-2" name="d10g1-2" size="2"><label>Denmark</label><br>
+                    <label>Tunisia</label><input type="number" id="d10g2-1" name="d10g2-1" size="2"><input type="number" id="d10g2-2" name="d10g2-2" size="2"><label>France</label><br>
+                    <label>Poland</label><input type="number" id="d10g3-1" name="d10g3-1" size="2"><input type="number" id="d10g3-2" name="d10g3-2" size="2"><label>Argentia</label><br>
+                    <label>Saudi Arabia</label><input type="number" id="d10g4-1" name="d10g4-1" size="2"><input type="number" id="d10g4-2" name="d10g4-2" size="2"><label>Mexico</label><br>
+                    <p>Match Day 11</p>
+                    <label>Croatia</label><input type="number" id="d11g1-1" name="d11g1-1" size="2"><input type="number" id="d11g1-2" name="d11g1-2" size="2"><label>Belgium</label><br>
+                    <label>Canada</label><input type="number" id="d11g2-1" name="d11g2-1" size="2"><input type="number" id="d11g2-2" name="d11g2-2" size="2"><label>Morocco</label><br>
+                    <label>Japan</label><input type="number" id="d11g3-1" name="d11g3-1" size="2"><input type="number" id="d11g3-2" name="d11g3-2" size="2"><label>Spain</label><br>
+                    <label>Costa Rica</label><input type="number" id="d11g4-1" name="d11g4-1" size="2"><input type="number" id="d11g4-2" name="d11g4-2" size="2"><label>Germany</label><br>
+                    <p>Match Day 12</p>
+                    <label>Ghana</label><input type="number" id="d12g1-1" name="d12g1-1" size="2"><input type="number" id="d12g1-2" name="d12g1-2" size="2"><label>Uraguay</label><br>
+                    <label>Korea Republic</label><input type="number" id="d12g2-1" name="d12g2-1" size="2"><input type="number" id="d12g2-2" name="d12g2-2" size="2"><label>Portugal</label><br>
+                    <label>Serbia</label><input type="number" id="d12g3-1" name="d12g3-1" size="2"><input type="number" id="d12g3-2" name="d12g3-2" size="2"><label>Switzerland</label><br>
+                    <label>Cameroon</label><input type="number" id="d12g4-1" name="d12g4-1" size="2"><input type="number" id="d12g4-2" name="d12g4-2" size="2"><label>Brazil</label><br>
+                    <p>Are you sure!</p>
+                    <input type="submit" value="Enter Dave and Derek's World Cup Competition">
+                </form>
+
+            </div>
         </div>
-       
+
     </main>
     <div id="mid-section">
         <h1>Get Your Wotsits Going Its Time Again</h1>
         <h4>¿Disapointment and Tears? ¡You Better Believe it!</h4>
     </div>
     <div id="gallery" class="flex-container">
-        <div class="gallery-image"><img src="./resources/Pics/flags/England.jpg"><h4>England</h4></div>
-        <div class="gallery-image"><img src="./resources/Pics/flags/Belgium.jpg"><h4>Belgium</h4></div>
-        <div class="gallery-image"><img src="./resources/Pics/flags/Germany.jpg"><h4>Germany</h4></div>
-        <div class="gallery-image"><img src="./resources/Pics/flags/Senegal.jpg"><h4>Senegal</h4></div>
-        <div class="gallery-image"><img src="./resources/Pics/flags/Wales.jpg"><h4>Wales</h4></div>
-        <div class="gallery-image"><img src="./resources/Pics/flags/Spain.jpg"><h4>Spain</h4></div>
+        <div class="gallery-image"><img src="./resources/Pics/flags/England.jpg">
+            <h4>England</h4>
+        </div>
+        <div class="gallery-image"><img src="./resources/Pics/flags/Belgium.jpg">
+            <h4>Belgium</h4>
+        </div>
+        <div class="gallery-image"><img src="./resources/Pics/flags/Germany.jpg">
+            <h4>Germany</h4>
+        </div>
+        <div class="gallery-image"><img src="./resources/Pics/flags/Senegal.jpg">
+            <h4>Senegal</h4>
+        </div>
+        <div class="gallery-image"><img src="./resources/Pics/flags/Wales.jpg">
+            <h4>Wales</h4>
+        </div>
+        <div class="gallery-image"><img src="./resources/Pics/flags/Spain.jpg">
+            <h4>Spain</h4>
+        </div>
     </div>
     <div id="lower-section" class="flex-container">
-        <div><h1>Groups</h1></div>
+        <div>
+            <h1>Groups</h1>
+        </div>
         <div id="addresses" class="flex-container">
             <div id="box1" class="address-box">
                 <h3>Group A</h3>
@@ -113,7 +193,7 @@
     <div id="bottom-section" class="flex-container">
         <h1>¡Derek and Dave's World Cup Website 2022!</h1>
         <h5>info@baxtersfootiewebsite.com</h5>
-        
+
     </div>
     <footer>
         <h5>copyright Dave and Derek Baxter 2022</h5>
