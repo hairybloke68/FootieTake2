@@ -71,8 +71,11 @@ main {
 
 #form1 {
     background-color: black;
-    justify-content: space-around;
+    justify-content: center;
 }
+input[type="number"]{
+    width: 20px;
+} 
 
 #mid-section {
     color: gold;
