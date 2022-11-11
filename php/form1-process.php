@@ -105,7 +105,7 @@ if (mysql_errno()) {
   
 //send data
 
-$sql = "INSERT INTO FootieForm1 (fname, sname, d1g1t1, d1g1t2, d2g1t1, d2g1t2, d2g2t1, d2g2g2, d2g3t1, d2g3t2,
+$sql = "INSERT INTO footieForm1 (fname, sname, d1g1t1, d1g1t2, d2g1t1, d2g1t2, d2g2t1, d2g2g2, d2g3t1, d2g3t2,
 d3g1t1, d3g1t2, d3g2t1, d3g2t2, d3g3t1, d3g3t2, d3g4t1, d3g4t2, 
 d4g1t1, d4g1t2, d4g2t1, d4g2t2, d4g3t1, d4g3t2, d4g4t1, d4g4t2, 
 d5g1t1, d5g1t2, d5g2t1, d5g2t2, d5g3t1, d5g3t2, d5g4t1, d5g4t2, 
