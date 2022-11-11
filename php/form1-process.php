@@ -95,13 +95,14 @@ $host_name = 'db5009890006.hosting-data.io';
 $database = 'dbs8386903';
 $user_name = 'dbu2473701';
 $password = 'EX66y00@156';
-$connect = mysql_connect($host_name, $user_name, $password, $database);
 
-if (mysql_errno()) {
-   die('<p>Failed to connect to MySQL: '.mysql_error().'</p>');
-  } else {
-    echo '<p>Connection to MySQL server successfully established.</p>';
-  }
+$link = new mysqli($host_name, $user_name, $password, $database);
+
+if ($link->connect_error) {
+  die('<p>Failed to connect to MySQL: '. $link->connect_error .'</p>');
+} else {
+  echo '<p>Connection to MySQL server successfully established.</p>';
+}
   
 //send data
 
