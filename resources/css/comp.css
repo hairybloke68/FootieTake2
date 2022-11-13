@@ -58,19 +58,17 @@ nav a {
 }
 
 main {
-    display: flex;
     position: relative;
     top: 70px;
-    background-image: url('../Pics/Qatar\ D&D.jpg');
     background-size: cover;
-    height: 900px;
+    height: 2000px;
     align-items: start;
     z-index: 2;
 }
 
 #center-text {
     color: Gold;
-    background-color: black;
+    background-color: transparent;
     align-items: space-around;
     height: 140px;
     width: 100%;
@@ -78,17 +76,20 @@ main {
 }
 
 #form1 {
-    background-color: transparent;
+    
     justify-content: center;
 }
 input[type="number"]{
     width: 40px;
-} 
+}
 
 #mid-section {
     color: gold;
     position: relative;
     top: 70px;
+}
+img:hover {
+    opacity: 0.8;
 }
 
 #gallery {
