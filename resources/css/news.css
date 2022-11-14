@@ -53,17 +53,17 @@ nav a {
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
 }
 
 main {
-    display: flex;
     position: relative;
     top: 70px;
     background-image: url('../Pics/Qatar\ D&D.jpg');
     background-size: cover;
-    height: 900px;
+    height: 5000px;
     align-items: start;
     z-index: 2;
 }
@@ -71,9 +71,10 @@ main {
 #center-text {
     color: Gold;
     background-color: black;
-    align-items: space-around;
-    height: 140px;
+    background: linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo, violet);
     width: 100%;
+    height: 100%;
+    align-items: space-around;
     z-index: 2;
 }
 
@@ -129,7 +130,7 @@ input[type="number"] {
     border: 1px solid wheat;
     display: flex;
     flex-flow: column;
-    height: 500px;
+    height: 530px;
     width: 300px;
     background-color: blueviolet;
     align-items: center;
