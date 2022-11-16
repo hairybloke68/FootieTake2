@@ -60,7 +60,7 @@ nav a {
 
 main {
     position: relative;
-    top: 70px;
+    top: 90px;
     background-size: cover;
     height: 2000px;
     align-items: start;
@@ -76,11 +76,22 @@ main {
     z-index: 2;
 }
 
+#ranking {
+    margin-top: 200px;
+}
+
 #form1 {
-    
     justify-content: center;
 }
-input[type="number"]{
+
+.rules-box {
+    border: 1px ivory solid;
+    width: 30%;
+    height: 600px;
+    margin-top: 200px;
+}
+
+input[type="number"] {
     width: 40px;
 }
 
@@ -89,6 +100,7 @@ input[type="number"]{
     position: relative;
     top: 70px;
 }
+
 img:hover {
     opacity: 0.8;
 }
