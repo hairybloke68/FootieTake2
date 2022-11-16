@@ -1,0 +1,149 @@
+html {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    z-index: 5;
+    background-color: black;
+}
+
+#logo {
+    display: inline-flex;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+    z-index: 5;
+}
+
+#top-menu {
+    display: inline-flex;
+    height: 69px;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+nav a {
+    margin: auto 10px;
+    padding: auto 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    background-image: url('../Pics/Qatar\ D&D.jpg');
+    background-size: cover;
+    height: 5000px;
+    align-items: start;
+    z-index: 2;
+}
+
+#center-text {
+    color: Gold;
+    background-color: black;
+    background: linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo, violet);
+    width: 100%;
+    height: 100%;
+    align-items: space-around;
+    z-index: 2;
+}
+
+
+
+
+#mid-section {
+    color: gold;
+    position: relative;
+    top: 70px;
+}
+
+
+
+
+
+#lower-section {
+    position: relative;
+    color: black;
+    top: 70px;
+    min-width: 600px;
+    min-height: 1000px;
+    background-image: url('../Pics/skysports-world-cup-qatar-2022_5921764.jpg');
+    background-size: cover;
+    flex-flow: column;
+    margin-top: 20px;
+    justify-content: start;
+}
+
+#addresses {
+    flex-flow: row;
+}
+
+.group {
+    color: bisque;
+    border: 1px solid wheat;
+    margin: 15px;
+    display: flex;
+    flex-flow: column;
+    height: 268x;
+    width: 430px;
+    background-color: blueviolet;
+    align-items: center;
+}
+
+table {
+    width: 430px;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+th, td {
+    padding: 2px;
+}
+#bottom-section {
+    position: relative;
+    top: 70px;
+    flex-flow: column;
+    height: 200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer {
+    position: relative;
+    top: 70px;
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 20px;
+}
