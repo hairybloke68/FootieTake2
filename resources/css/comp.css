@@ -10,7 +10,8 @@ html {
 header {
     position: fixed;
     display: flex;
-    height: 69px;
+    color: gold;
+    height: 80px;
     width: 100%;
     border-bottom: 1px solid seashell;
     justify-content: space-between;

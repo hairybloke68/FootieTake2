@@ -63,7 +63,7 @@ main {
     top: 70px;
     background-image: url('../Pics/Qatar\ D&D.jpg');
     background-size: cover;
-    height: 5000px;
+    height: 3000px;
     align-items: start;
     z-index: 2;
 }
@@ -108,20 +108,11 @@ main {
     flex-flow: row;
 }
 
-.group {
-    color: bisque;
-    border: 1px solid wheat;
-    margin: 15px;
-    display: flex;
-    flex-flow: column;
-    height: 268x;
-    width: 430px;
-    background-color: blueviolet;
-    align-items: center;
-}
 
 table {
-    width: 430px;
+    background-color: blueviolet;
+    width: 450px;
+    margin: 10px;
 }
 
 table, th, td {

@@ -10,7 +10,8 @@ html {
 header {
     position: fixed;
     display: flex;
-    height: 69px;
+    color: gold;
+    height: 80px;
     width: 100%;
     border-bottom: 1px solid seashell;
     justify-content: space-between;
@@ -60,7 +61,7 @@ nav a {
 main {
     display: flex;
     position: relative;
-    top: 70px;
+    top: 90px;
     background-image: url('../Pics/Qatar\ D&D.jpg');
     background-size: cover;
     height: 900px;
