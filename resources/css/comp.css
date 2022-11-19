@@ -101,10 +101,6 @@ input[type="number"] {
     top: 70px;
 }
 
-img:hover {
-    opacity: 0.8;
-}
-
 #gallery {
     position: relative;
     top: 70px;
