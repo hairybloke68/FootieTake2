@@ -69,6 +69,23 @@ main {
     z-index: 2;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px
+}
+
+li a{
+    display: block;
+    width: 150px;
+}
+
+li a:hover {
+    color: black;
+    background-color: aqua;
+}
+
 #center-text {
     color: Gold;
     background-color: black;
