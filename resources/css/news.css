@@ -69,6 +69,11 @@ main {
     z-index: 2;
 }
 
+.Title {
+    margin: 10px;
+    background-color: black;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
