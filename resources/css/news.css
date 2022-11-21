@@ -101,13 +101,11 @@ li a:hover {
     z-index: 2;
 }
 
-#form1 {
-    background-color: transparent;
-    justify-content: center;
-}
-
-input[type="number"] {
-    width: 40px;
+.match-box {
+    background-color: bisque;
+    color: blue;
+    width: 45%;
+    border: 1px solid black
 }
 
 #mid-section {
