@@ -62,7 +62,7 @@ main {
     position: relative;
     top: 90px;
     background-size: cover;
-    height: 2000px;
+    height: 4000px;
     align-items: start;
     z-index: 2;
 }
