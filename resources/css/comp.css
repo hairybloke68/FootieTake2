@@ -87,8 +87,9 @@ main {
 .rules-box {
     border: 1px ivory solid;
     width: 30%;
-    height: 600px;
+    height: fit-content;
     margin-top: 200px;
+    
 }
 
 input[type="number"] {
