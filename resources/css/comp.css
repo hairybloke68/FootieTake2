@@ -9,6 +9,7 @@ html {
 
 header {
     position: fixed;
+    top: 0;
     display: flex;
     color: gold;
     height: 80px;
@@ -90,7 +91,6 @@ main {
     min-width: 410px;
     height: fit-content;
     margin-top: 200px;
-    
 }
 
 input[type="number"] {
