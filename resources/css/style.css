@@ -9,6 +9,7 @@ html {
 
 header {
     position: fixed;
+    top: 0;
     display: flex;
     color: gold;
     height: 80px;
